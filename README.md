@@ -9,10 +9,9 @@ This is a Chinese chess engine(chinese chess AI) translate from xqwlight.java.
 ## Usage
 
 ```dart
-
 final move = await compute(
     XQIsoSearch.getMove,
-    IsoMessage(player.manager.fenStr),
+    IsoMessage("C1bak4/7R1/2n1b4/1N4p1p/2pn1r3/P2R2P2/2P1cr2P/2C1B4/4A4/2BAK4 w - - 0 1"),
 );
 ```
 
