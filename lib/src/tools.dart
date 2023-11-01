@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:logging/logging.dart';
 
-final logger = Logger.root
+final logger = Logger('CCHESS_ENGINE')
   ..onRecord.listen((record) {
     log(
       record.message,

@@ -1,18 +1,18 @@
 name: cchess_engine
 description: This is a Chinese chess engine(chinese chess AI) translate from xqwlight.java.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/shirne/cchess_engine
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  logging: ^1.0.2
+  logging: 
 
 dev_dependencies:
   test: 
-  lints: ^2.0.0
-  cchess: ^0.0.1
+  lints: 
+  cchess: 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
