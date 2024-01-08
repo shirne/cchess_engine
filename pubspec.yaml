@@ -1,13 +1,13 @@
 name: cchess_engine
 description: This is a Chinese chess engine(chinese chess AI) translate from xqwlight.java.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/shirne/cchess_engine
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
-  logging: ^1.2.0
+  logging: ^1.0.0
 
 dev_dependencies:
   test: 

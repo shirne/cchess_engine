@@ -23,7 +23,7 @@ void main() {
       'a0a1',
       'b7a7',
       'g3g4',
-      'i8f8'
+      'i8f8',
     ];
     List<int> moves = [
       42436,
@@ -35,7 +35,7 @@ void main() {
       46019,
       21332,
       35225,
-      18507
+      18507,
     ];
 
     for (int i = 0; i < iccs.length; i++) {
